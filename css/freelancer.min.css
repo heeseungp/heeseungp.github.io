@@ -72,7 +72,7 @@ header {
   text-align: center;
   background: #000000;
   color: white;
-  background-image: url("https://heeseungp.github.io/manhattan_view.html");
+  background-image: url("/home/heeseung5/Documents/github/img/manhattan_view.jpg");
   background-size: 100% 100%;
 
 }
@@ -531,4 +531,12 @@ h3.capitalize {
 
 h4.capitalize {
     text-transform: capitalize;
+}
+
+h4.lowercase {
+  text-transform: lowercase;
+}
+
+h4.italic {
+  font-style: italic;
 }
