@@ -522,6 +522,10 @@ fieldset[disabled] .btn-success.active {
 }
 
 #education_list {
+  font-size: 17px;
+}
+
+#job_description {
   font-size: 15px;
 }
 
