@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+
 /* Space out content a bit */
 body {
   padding-top: 20px;
@@ -90,4 +92,39 @@ body {
 
 .role {
   color: grey;
+}
+
+p.bio {
+  line-height: 35px;
+  font-size: 20px;
+  font-family: Ubuntu;
+}
+
+i.iconspace {
+  margin-right: 25px;
+}
+
+h1, h2, h3 {
+  font-family: 'Ubuntu';
+}
+
+div#line1 #hoveroff {
+  display:inline;
+}
+
+div#line1:hover #hoveroff {
+  display:none;
+}
+
+div#line1 #hoveron {
+  display:none;
+}
+
+div#line1:hover #hoveron {
+  display:inline;
+}
+
+li {
+  margin-right: 25px;
+  font-family: 'Ubuntu';
 }
