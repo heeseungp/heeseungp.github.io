@@ -99,11 +99,11 @@ body {
 p.bio {
   line-height: 35px;
   font-size: 20px;
-  font-family: Ubuntu;
+  font-family: 'Ubuntu';
 }
 
 /* font type */
-h1, h2, h3, a {
+h1, h2, h3, h5, a {
   font-family: 'Ubuntu';
 }
 
@@ -137,4 +137,10 @@ a.bold {
   /* font-weight: bold; */
   font-size: 20px;
   color: black;
+}
+
+p.experience {
+  font-family: 'Ubuntu';
+  line-height: 30px;
+  font-size: 18px;
 }
