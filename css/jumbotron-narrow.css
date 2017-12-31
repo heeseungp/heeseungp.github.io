@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+@import url('https://fonts.googleapis.com/css?family= Ubuntu');
 
 /* Space out content a bit */
 body {
@@ -86,6 +86,7 @@ body {
   border-bottom: 1px solid #e5e5e5;
 }
 
+/* picture spacing */
 .spacing {
   margin-bottom: 25px;
 }
@@ -94,20 +95,19 @@ body {
   color: grey;
 }
 
+/* bio */
 p.bio {
   line-height: 35px;
   font-size: 20px;
   font-family: Ubuntu;
 }
 
-i.iconspace {
-  margin-right: 25px;
-}
-
-h1, h2, h3 {
+/* font type */
+h1, h2, h3, a {
   font-family: 'Ubuntu';
 }
 
+/* hovering over the name */
 div#line1 #hoveroff {
   display:inline;
 }
@@ -124,7 +124,17 @@ div#line1:hover #hoveron {
   display:inline;
 }
 
-li {
+/* icon color */
+i {
+  color: #FF7300;
+}
+
+i.iconspace {
   margin-right: 25px;
-  font-family: 'Ubuntu';
+}
+
+a.bold {
+  /* font-weight: bold; */
+  font-size: 20px;
+  color: black;
 }
