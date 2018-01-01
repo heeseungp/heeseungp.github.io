@@ -144,8 +144,21 @@ i.iconspace {
   margin-right: 25px;
 }
 
+i.contact {
+  margin-right: 50px;
+  font-size:50px;
+}
+
+marginleft {
+  margin-left:50px;
+}
+
 a.bold {
   /* font-weight: bold; */
-  font-size: 20px;
+  font-size: 25px;
   color: black;
+}
+
+div.contact {
+  margin-left: 15%;
 }
