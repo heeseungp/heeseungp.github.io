@@ -108,8 +108,12 @@ p.project, p.experience {
 
 
 /* font type */
-h1, h2, h3, h4, h5, a {
+h1, h2, h3, h4, h5, h6, a {
   font-family: 'Ubuntu';
+}
+
+h6 {
+  color: #5C5B5B;
 }
 
 /* hovering over the name */
