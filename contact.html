@@ -34,11 +34,11 @@
     <!-- Contact -->
     <div class="marketing"> 
         <div class="container contact">
-            <a href="https://www.linkedin.com/in/joseph-park-799150b8"><i class="fa fa-linkedin fa-6 contact" aria-hidden="true" ></i></a>
-            <a href="https://www.github.com/heeseungp"><i class="fa fa-github fa-2 contact" aria-hidden="true" ></i></a>
-            <a href="https://www.instagram.com/heeseungp/"><i class="fa fa-instagram fa-2 contact" aria-hidden="true" ></i></a>      
-            <a href="https://www.meetup.com/members/190626286/"><i class="fa fa-meetup contact" aria-hidden="true"></i></a>
-            <a href=""><i class="fa fa-envelope contact" aria-hidden="true"></i></a>
+            <a href="https://www.linkedin.com/in/joseph-park-799150b8"><i class="fa fa-linkedin fa-6 contact btn" aria-hidden="true" ></i></a>
+            <a href="https://www.github.com/heeseungp"><i class="fa fa-github fa-2 contact btn" aria-hidden="true" ></i></a>
+            <a href="https://www.instagram.com/heeseungp/"><i class="fa fa-instagram fa-2 contact btn" aria-hidden="true" ></i></a>      
+            <a href="https://www.meetup.com/members/190626286/"><i class="fa fa-meetup contact btn" aria-hidden="true"></i></a>
+            <a href="#"><i class="fa fa-envelope contact btn" data-clipboard-text="josephparkatwork@gmail.com" aria-hidden="true"></i></a>
         </div>
     </div>
 
@@ -66,5 +66,39 @@
     <script src="js/bootstrap.min.js"></script>
     <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script> -->
     <script src="https://use.fontawesome.com/c0deb5f225.js"></script>
+    <!-- Copy clipboard -->
+    <script src="js/clipboard.min.js"></script>    
+    <script>
+        // Tooltip
+        $('button').tooltip({
+        trigger: 'click',
+        placement: 'bottom'
+        });
+
+        function setTooltip(btn, message) {
+        $(btn).tooltip('hide')
+            .attr('data-original-title', message)
+            .tooltip('show');
+        }
+
+        function hideTooltip(btn) {
+        setTimeout(function() {
+            $(btn).tooltip('hide');
+        }, 1000);
+        }
+
+        // Clipboard
+        var clipboard = new Clipboard('.btn');
+
+        clipboard.on('success', function(e) {
+        setTooltip(e.trigger, 'Copied!');
+        hideTooltip(e.trigger);
+        });
+
+        clipboard.on('error', function(e) {
+        setTooltip(e.trigger, 'Failed!');
+        hideTooltip(e.trigger);
+        });
+    </script>
 </body>
 </html> 
