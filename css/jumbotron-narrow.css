@@ -102,13 +102,7 @@ p.bio {
   font-family: 'Ubuntu';
 }
 
-p.experience {
-  font-family: 'Ubuntu';
-  line-height: 30px;
-  font-size: 18px;
-}
-
-p.project {
+p.project, p.experience {
   font-family: 'Ubuntu';
 }
 
