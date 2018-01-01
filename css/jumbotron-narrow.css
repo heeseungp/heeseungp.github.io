@@ -106,6 +106,19 @@ p.project, p.experience {
   font-family: 'Ubuntu';
 }
 
+a.bold {
+  /* font-weight: bold; */
+  font-size: 25px;
+  color: black;
+}
+
+a.experience {
+  color: rgba(1, 56, 114, 0.89);
+}
+
+a.bio {
+  color: rgba(1, 56, 114, 0.89);
+}
 
 /* font type */
 h1, h2, h3, h4, h5, h6, a {
@@ -147,14 +160,12 @@ i.contact {
   font-size:50px;
 }
 
-marginleft {
-  margin-left:50px;
+i.experience, i.project {
+  margin-left: 10px;
 }
 
-a.bold {
-  /* font-weight: bold; */
-  font-size: 25px;
-  color: black;
+marginleft {
+  margin-left:50px;
 }
 
 div.contact {
