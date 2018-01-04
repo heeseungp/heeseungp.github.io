@@ -16,3 +16,5 @@ Libraries | ToolKits Used:
 3. [Clipboard.js](https://clipboardjs.com/)
 4. [Google Fonts](https://fonts.google.com/)
 5. [jQuery](https://jquery.com/)
+6. [Hover.css](http://ianlunn.github.io/Hover/)
+
