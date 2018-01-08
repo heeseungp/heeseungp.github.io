@@ -81,47 +81,27 @@ body {
 }
 
 /* Picture and Role */
-.seefirst {
+div.seefirst {
   text-align: center;
   border-bottom: 1px solid #e5e5e5;
 }
 
-/* picture spacing */
-.spacing {
-  margin-bottom: 25px;
-}
-
-.role {
+h3.role {
   color: grey;
 }
 
 /* bio */
 p.bio {
-  line-height: 35px;
-  font-size: 20px;
-  font-family: 'Ubuntu';
+  line-height: 175%;
+  font-size: 1.25em;
 }
 
-p.project, p.experience {
-  font-family: 'Ubuntu';
-}
-
-a.bold {
-  /* font-weight: bold; */
-  font-size: 25px;
-  color: black;
-}
-
-a.experience {
-  color: rgba(1, 56, 114, 0.89);
-}
-
-a.bio {
+a.bio, a.experience {
   color: rgba(1, 56, 114, 0.89);
 }
 
 /* font type */
-h1, h2, h3, h4, h5, h6, a {
+h1, h2, h3, h4, h5, h6, a, p {
   font-family: 'Ubuntu';
 }
 
@@ -163,7 +143,6 @@ i.contact {
 i.experience, i.project {
   margin-left: 10px;
 }
-
 
 div.contact {
   margin-left: 6%;
