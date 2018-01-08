@@ -136,7 +136,6 @@ i.iconspace {
 }
 
 i.contact {
-  margin-right: 50px;
   font-size:50px;
 }
 
@@ -152,3 +151,13 @@ a.topmenu {
   font-size: 1.5em;
   margin-left: 
 } 
+
+p.quote {
+  font-size: 1.2em;
+}
+
+p.quoteauthor {
+  font-size: 1em;
+  text-align: center;
+  font-weight: bold; 
+}

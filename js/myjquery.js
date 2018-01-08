@@ -2,7 +2,7 @@ $( document ).ready(function() {
 	$(".nav-item").addClass("topmenu");
 	$(".topmenu").addClass("ml-4").addClass("mr-4");
 	$("h5 > a").addClass("experience");
-
+	$("i.contact").addClass("ml-3").addClass("mr-3");
 	// Tooltip
 	$('button').tooltip({
 	trigger: 'click',
