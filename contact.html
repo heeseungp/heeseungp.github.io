@@ -21,16 +21,19 @@
 <body background="img/brillant_@2X.png">
     <div class="container">
     <!-- nav bar -->
-    <div class="header clearfix">
-        <div class="container">
-        <nav class="navbar">
-            <a class="bold hvr-pop" href="index.html">Home</a>
-            <a class="bold hvr-pop" href="experience.html">Experience</a>
-            <a class="bold hvr-pop" href="project.html">Project</a>
-            <a class="bold hvr-pop" href="#">Contact</a>    
-        </nav>
-        </div>
+    <nav class="navbar navbar-expand-md navbar-light bg-faded">
+    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse ml-4 mr-5" id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+        <a class="nav-item nav-link" href="index.html">Home</a>
+        <a class="nav-item nav-link" href="experience.html">Experience</a>
+        <a class="nav-item nav-link" href="project.html">Project</a>
+        <a class="nav-item nav-link active" href="#">Contact<span class="sr-only">(current)</span></a>
+      </div>
     </div>
+    </nav>
 
     <!-- Contact -->
     <div class="marketing"> 
@@ -69,37 +72,6 @@
     <script src="https://use.fontawesome.com/c0deb5f225.js"></script>
     <!-- Copy clipboard -->
     <script src="js/clipboard.min.js"></script>    
-    <script>
-        // Tooltip
-        $('button').tooltip({
-        trigger: 'click',
-        placement: 'bottom'
-        });
-
-        function setTooltip(btn, message) {
-        $(btn).tooltip('hide')
-            .attr('data-original-title', message)
-            .tooltip('show');
-        }
-
-        function hideTooltip(btn) {
-        setTimeout(function() {
-            $(btn).tooltip('hide');
-        }, 1000);
-        }
-
-        // Clipboard
-        var clipboard = new Clipboard('.btn');
-
-        clipboard.on('success', function(e) {
-        setTooltip(e.trigger, 'Copied!');
-        hideTooltip(e.trigger);
-        });
-
-        clipboard.on('error', function(e) {
-        setTooltip(e.trigger, 'Failed!');
-        hideTooltip(e.trigger);
-        });
-    </script>
+    <script src="js/myjquery.js"></script>
 </body>
 </html> 
